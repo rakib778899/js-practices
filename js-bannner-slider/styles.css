@@ -1,0 +1,31 @@
+/* Slider container styling */
+.slider-container {
+    width: 100%;
+    height: 1000px; 
+    overflow: hidden;
+    position: relative;
+ 
+}
+
+/* Styling for images */
+.slider-images {
+    display: flex;
+    width: 300%; 
+    transition: transform 1s ease-in-out;
+}
+
+img{
+   
+   width: 800px;
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.slide {
+    width: 100%;
+    height: 600px;
+  
+}
+
